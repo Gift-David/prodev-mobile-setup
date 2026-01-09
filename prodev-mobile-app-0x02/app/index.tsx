@@ -70,7 +70,7 @@ export default function Index() {
           style={styles.background}
           resizeMode="cover"
         >
-          <View>
+          <View style={styles.container}>
             <View style={styles.companyLogo}>
               <Image source={require("@/assets/images/Logo.png")} />
             </View>
